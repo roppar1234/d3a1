@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Language Teacher Portfolio</title>
+  <!-- Meta tags for responsiveness -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Example of a modern, minimal reset -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f7f7f7;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Navigation bar styling */
+    header {
+      background-color: #ffffff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 999;
+    }
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 60px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      padding: 8px 16px;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #555;
+    }
+
+    /* Section styling */
+    section {
+      padding: 80px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    /* Adjust top padding to avoid being hidden behind the fixed nav */
+    section:first-of-type {
+      padding-top: 100px;
+    }
+
+    h1, h2 {
+      margin-bottom: 20px;
+    }
+    p {
+      margin-bottom: 15px;
+    }
+
+    /* Example button styling */
+    .cta-button {
+      display: inline-block;
+      padding: 10px 20px;
+      text-decoration: none;
+      background-color: #333;
+      color: #fff;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+      margin-top: 10px;
+    }
+    .cta-button:hover {
+      background-color: #444;
+    }
+
+    /* Footer styling */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #ffffff;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Fixed navigation bar -->
+  <header>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#profile">Profile</a>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home">
+    <h1>Welcome to My Language Teaching Website</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac tempus purus.
+      Phasellus lacinia semper felis, in mattis ligula ultricies eget. Nunc volutpat massa
+      at elit dictum vehicula. Nulla facilisi.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet elit libero.
+      Duis vehicula, lectus ac placerat consequat, massa lacus lacinia velit, a tincidunt
+      turpis neque vitae tellus. Donec suscipit mollis sem in sollicitudin.
+    </p>
+    <a class="cta-button" href="#profile">Learn More About Me</a>
+  </section>
+
+  <!-- Profile Section -->
+  <section id="profile">
+    <h2>About Me</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at lacinia tortor.
+      In at diam vel sem vulputate volutpat. Nam luctus urna sed ullamcorper porta.
+    </p>
+    <p>
+      Nullam vehicula mauris in commodo rhoncus. Cras orci massa, vestibulum non pellentesque 
+      eu, congue eu odio. Morbi quis purus interdum, egestas nisl at, convallis sapien.
+    </p>
+    <p>
+      Proin sit amet ligula dolor. Pellentesque vel libero a urna auctor lobortis. Cras et 
+      sapien dignissim, ultricies orci vitae, volutpat urna.
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Language Teacher. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
