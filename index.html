@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Language Teacher Portfolio</title>
-  <!-- Meta tags for responsiveness -->
+  <title>Colorful Language Teacher Portfolio</title>
+  <!-- Make the site responsive -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Example of a modern, minimal reset -->
   <style>
+    /* Reset and general styling */
     * {
       margin: 0;
       padding: 0;
@@ -15,14 +15,15 @@
     }
 
     body {
-      background-color: #f7f7f7;
+      /* Subtle gradient background */
+      background: linear-gradient(to bottom right, #e6efff, #fff6e6);
       color: #333;
       line-height: 1.6;
     }
 
-    /* Navigation bar styling */
+    /* Header & Nav */
     header {
-      background-color: #ffffff;
+      background-color: #ff6f91; /* A bright, playful color */
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
       position: fixed;
       top: 0;
@@ -39,25 +40,23 @@
     }
     nav a {
       text-decoration: none;
-      color: #333;
+      color: #ffffff; /* White text for contrast */
       font-weight: bold;
       padding: 8px 16px;
       transition: color 0.3s ease;
     }
     nav a:hover {
-      color: #555;
+      color: #ffc1d1; /* Lighter pink on hover */
     }
 
-    /* Section styling */
+    /* Sections */
     section {
       padding: 80px 20px;
       max-width: 1000px;
       margin: 0 auto;
     }
-
-    /* Adjust top padding to avoid being hidden behind the fixed nav */
     section:first-of-type {
-      padding-top: 100px;
+      padding-top: 100px; /* Avoid overlapping fixed nav */
     }
 
     h1, h2 {
@@ -67,26 +66,41 @@
       margin-bottom: 15px;
     }
 
-    /* Example button styling */
+    /* A colorful button */
     .cta-button {
       display: inline-block;
       padding: 10px 20px;
       text-decoration: none;
-      background-color: #333;
+      background-color: #45b6fe; /* Blue accent */
       color: #fff;
       border-radius: 4px;
       transition: background-color 0.3s ease;
       margin-top: 10px;
+      font-weight: bold;
     }
     .cta-button:hover {
-      background-color: #444;
+      background-color: #69c9ff; /* Slightly lighter on hover */
     }
 
-    /* Footer styling */
+    /* Add a colored background for each section for contrast */
+    #home {
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 8px;
+      margin-bottom: 20px;
+      padding: 40px;
+    }
+    #profile {
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 8px;
+      padding: 40px;
+    }
+
+    /* Footer */
     footer {
       text-align: center;
       padding: 20px;
-      background-color: #ffffff;
+      background-color: #ff6f91;
+      color: #fff;
       margin-top: 20px;
     }
   </style>
@@ -137,6 +151,5 @@
   <footer>
     <p>&copy; 2025 Language Teacher. All rights reserved.</p>
   </footer>
-
 </body>
 </html>
